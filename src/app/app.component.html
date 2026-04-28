@@ -1,33 +1,28 @@
 <div class="min-h-screen bg-[#1a1d24] text-white font-sans p-4 md:p-10">
   
   <nav class="max-w-6xl mx-auto flex justify-between items-center py-6">
-    <h1 class="text-2xl font-bold tracking-tighter">Portafolio</h1>
+    <h1 class="text-2xl font-bold tracking-tighter">Acerca de mi</h1>
     <div class="space-x-8 text-gray-400 hidden md:flex">
-      <a href="#" class="hover:text-[#00ffc8] transition">Inicio</a>
-      <a href="#" class="hover:text-[#00ffc8] transition">Proyectos</a>
-      <a href="#" class="hover:text-[#00ffc8] transition">CV</a>
+      <a href="#localidad" class="hover:text-[#00ffc8] transition">Localidad</a>
+      <a href="#mis-proyectos" class="hover:text-[#00ffc8] transition">Proyectos</a>
+      <a href="CV_Andres_Santamaria.pdf" download="CV_Andres_Santamaria.pdf" class="hover:text-[#00ffc8] transition">CV</a>
     </div>
   </nav>
 
   <main class="max-w-6xl mx-auto mt-16 grid md:grid-cols-2 gap-10 items-center">
-    
     <div class="space-y-6">
       <p class="text-[#00ffc8] text-lg font-medium">Hola, mi nombre es</p>
-      
       <h2 class="text-6xl md:text-7xl font-extrabold text-white tracking-tight">
         Andres Santamaria
       </h2>
-      
       <h3 class="text-2xl md:text-3xl text-gray-300 font-semibold">
-        Desarrollador Full Stack & Diseñador UI
+        Ingeniero en Computacion y Desarrollador Web.
       </h3>
-      
       <p class="text-gray-400 text-lg leading-relaxed max-w-lg">
         Me especializo en crear aplicaciones web modernas y funcionales. 
         Me apasiona transformar ideas complejas en interfaces sencillas y elegantes 
         utilizando las últimas tecnologías.
       </p>
-
       <div class="pt-4">
         <button class="bg-[#00ffc8] text-[#1a1d24] px-10 py-4 rounded-lg font-bold text-lg hover:bg-white hover:scale-105 transition-all shadow-lg shadow-[#00ffc8]/20">
           Hablemos
@@ -38,7 +33,6 @@
     <div class="flex justify-center md:justify-end">
       <div class="relative group">
         <div class="absolute -inset-1 bg-[#00ffc8] rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-        
         <div class="relative bg-[#23272f] rounded-2xl overflow-hidden border border-gray-700 w-full max-w-[800px]">
           <img 
             src="WhatsApp Image 2025-10-02 at 1.56.14 PM.jpeg" 
@@ -48,7 +42,6 @@
         </div>
       </div>
     </div>
-
   </main>
 
   <section class="max-w-6xl mx-auto mt-32 grid md:grid-cols-3 gap-6">
@@ -70,5 +63,78 @@
       <p class="text-sm text-gray-400">Mejora de rendimiento y SEO para aplicaciones existentes.</p>
     </div>
   </section>
+
+  <section id="mis-proyectos" class="max-w-6xl mx-auto mt-32 mb-20">
+    <div class="mb-12">
+      <p class="text-[#00ffc8] font-medium italic">Mi trabajo reciente</p>
+      <h2 class="text-4xl font-bold text-white">Proyectos Destacados</h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="group bg-[#23272f] rounded-2xl overflow-hidden border border-gray-800 hover:border-[#00ffc8]/30 transition-all">
+        <div class="h-64 bg-gray-700 overflow-hidden">
+          <img src="yyt.PNG" alt="Proyecto Uno" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-8">
+          <div class="flex gap-3 mb-4">
+            <span class="text-[10px] text-[#00ffc8] border border-[#00ffc8]/30 px-2 py-1 rounded">ANGULAR</span>
+            <span class="text-[10px] text-[#00ffc8] border border-[#00ffc8]/30 px-2 py-1 rounded">TAILWIND</span>
+          </div>
+          <h4 class="text-2xl font-bold mb-3">Platarforma virtual para Inversiones Electric C.A</h4>
+          <p class="text-gray-400 text-sm mb-6">Plataforma de ventas con carrito de compras, gestión de inventario y pagos en línea integrados.</p>
+          <a href="#" class="text-[#00ffc8] font-bold hover:text-white transition">Ver detalles →</a>
+        </div>
+      </div>
+
+      <div class="group bg-[#23272f] rounded-2xl overflow-hidden border border-gray-800 hover:border-[#00ffc8]/30 transition-all">
+        <div class="h-64 bg-gray-600 overflow-hidden">
+          <img src="chatbot.png" alt="Proyecto Dos" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+        <div class="p-8">
+          <div class="flex gap-3 mb-4">
+            <span class="text-[10px] text-[#00ffc8] border border-[#00ffc8]/30 px-2 py-1 rounded">PYTHON</span>
+            <span class="text-[10px] text-[#00ffc8] border border-[#00ffc8]/30 px-2 py-1 rounded">FLET</span>
+          </div>
+          <h4 class="text-2xl font-bold mb-3">Chat bot Basado en inteligencia Artificial</h4>
+          <p class="text-gray-400 text-sm mb-6">Chat Bot que permite consultar el clima y todo tipos de preguntas, elabrado con python y flet pa una limpia UI.</p>
+          <a href="#" class="text-[#00ffc8] font-bold hover:text-white transition">Ver detalles →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="localidad" class="max-w-6xl mx-auto mt-32 mb-32 p-8 bg-[#23272f] rounded-3xl border border-gray-800 relative overflow-hidden">
+    <div class="absolute -right-20 -bottom-20 w-64 h-64 bg-[#00ffc8] opacity-5 blur-[100px]"></div>
+    
+    <div class="grid md:grid-cols-2 gap-12 items-center relative z-10">
+      <div>
+        <p class="text-[#00ffc8] font-medium mb-2 uppercase tracking-widest text-sm">Ubicación actual</p>
+        <h2 class="text-4xl font-bold text-white mb-6">Basado en Venezuela</h2>
+        <p class="text-gray-400 text-lg leading-relaxed mb-6">
+          Trabajo de manera remota para clientes de todo el mundo desde mi hermosa tierra, 
+          aprovechando la flexibilidad del desarrollo de software para conectar con proyectos globales.
+        </p>
+        <div class="flex items-center gap-4 text-gray-300">
+          <span class="text-2xl">📍</span>
+          <span>Carabobo, Venezuela</span>
+        </div>
+      </div>
+
+      <div class="relative group">
+        <div class="absolute -inset-1 bg-[#00ffc8] rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-700"></div>
+        <div class="relative rounded-2xl overflow-hidden border border-gray-700 aspect-video bg-[#1a1d24]">
+          <img 
+            src="venezuela.jpg" 
+            alt="Venezuela" 
+            class="w-full h-full object-cover opacity-80 hover:opacity-100 transition duration-500"
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="max-w-6xl mx-auto py-10 border-t border-gray-800 text-center text-gray-500 text-sm">
+    <p>© 2026 Andres Santamaria. Hecho con Angular y Tailwind.</p>
+  </footer>
 
 </div>
